@@ -1,0 +1,17 @@
+.cityList{
+    display: flex;
+    width: 100%;
+    border: 1px solid red;
+    background-color: white;
+    gap: 1%;
+}
+.cityList>div{
+    width: 11%;
+    margin: 0 1px;
+    border: 1px solid red;
+    text-align: center;
+
+}
+.cityList>div>img{
+    width: 100%;
+}
