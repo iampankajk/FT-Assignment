@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CityDetails from './components/CityDetails/CityDetails';
+import Card from './components/Card/Card';
 import Header from './components/Header/Header';
 import SearchBar from './components/SearchBar/SearchBar';
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div>
       <Header></Header>
       <SearchBar></SearchBar>
-      <CityDetails></CityDetails>
+      <Card></Card>
     </div>
   );
 }

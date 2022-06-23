@@ -1,3 +1,9 @@
+.container{
+    background-color: white;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
 .cityList{
     display: flex;
     width: 100%;
@@ -14,4 +20,61 @@
 }
 .cityList>div>img{
     width: 100%;
+}
+
+.cityDetail{
+    width: 80%;
+    margin: auto;
+    border: 1px red solid;
+    display: flex;
+    gap: 2%;
+}
+.cityDetail>div:nth-child(1){
+    width: 45%;
+    border: 1px red solid;
+    
+}
+.cityDetail>div:nth-child(2){
+    width: 55%;
+    border: 1px red solid;
+}
+.cityDetail>div>img{
+    width: 100%;
+}
+
+.cityDes>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+
+.cityDes>div:nth-child(1)>span:nth-child(2){
+    display: flex;
+    width: 30%;
+    border: 1px red solid;
+    background-color: rgb(9, 87, 177);
+    border-radius: 5px;
+    color: white;
+}
+.cityDes>div:nth-child(1)>span:nth-child(2)>img{
+    width: 30px;
+}
+.cityDes>div:nth-child(1)>span:nth-child(2)>p{
+    margin-top: 8%;
+    
+}
+
+.listing{
+    display: flex;
+    background-color: white;
+    padding: 50px;
+    margin-top: 50px;
+}
+.listing>div{
+    /* border: 1px red solid; */
+    width: 25%;
+    text-align: center;
+}
+
+.listing>div:nth-child(1),.listing>div:nth-child(2),.listing>div:nth-child(3){
+    border-right: 1px grey solid;
 }
