@@ -31,7 +31,7 @@ const Crousel = () => {
             properties.map((property)=>{
                 return (
                     <div className={styles.box} key={property.id}>
-                        <div><img src={property.property_image}></img></div>
+                        <div><img src={property.property_image} alt={property.id}></img></div>
                         <h4>{property.bedrooms} BHK Independent House</h4>
                         <div><p>{property.area}</p>
                         <h6>${property.expected_rent}/month</h6>

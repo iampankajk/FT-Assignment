@@ -27,7 +27,6 @@ const SearchBar = ()=>{
                     </select>
                 </div>
                 <div className={styles.searchBar}>
-                    <img src=""></img>
                     <input></input>
                 </div>
                 <div className={styles.orange}>Search</div>

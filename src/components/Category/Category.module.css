@@ -1,0 +1,17 @@
+.main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap:30px;
+    margin-top: 50px;
+}
+.main_box{
+    /* display: flex; */
+    padding: 30px;
+    box-shadow: 2px 3px 5px 4px gray;
+    border-bottom: 1px gray solid;
+
+}
+.main_box_i{
+    display: flex;
+}

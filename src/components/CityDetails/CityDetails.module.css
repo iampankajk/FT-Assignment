@@ -2,22 +2,23 @@
     background-color: white;
     margin-top: 50px;
     padding: 50px 0px;
+    box-shadow: 2px 3px 4px 3px gray;
 }
 
 .cityList{
     display: flex;
     width: 100%;
-    border: 1px solid red;
     background-color: white;
     gap: 1%;
 }
 .cityList>div{
     width: 11%;
     margin: 0 1px;
-    border: 1px solid red;
     text-align: center;
+    box-shadow: 2px 3px 4px 3px gray;
 
 }
+
 .cityList>div>img{
     width: 100%;
 }
@@ -25,18 +26,18 @@
 .cityDetail{
     width: 80%;
     margin: auto;
-    border: 1px red solid;
+    
     display: flex;
     gap: 2%;
 }
 .cityDetail>div:nth-child(1){
     width: 45%;
-    border: 1px red solid;
+    
     
 }
 .cityDetail>div:nth-child(2){
     width: 55%;
-    border: 1px red solid;
+    
 }
 .cityDetail>div>img{
     width: 100%;
@@ -50,7 +51,7 @@
 .cityDes>div:nth-child(1)>span:nth-child(2){
     display: flex;
     width: 30%;
-    border: 1px red solid;
+    
     background-color: rgb(9, 87, 177);
     border-radius: 5px;
     color: white;
@@ -68,9 +69,11 @@
     background-color: white;
     padding: 50px;
     margin-top: 50px;
+    box-shadow: 2px 3px 4px 3px gray;
+    
 }
 .listing>div{
-    /* border: 1px red solid; */
+    /*  */
     width: 25%;
     text-align: center;
 }

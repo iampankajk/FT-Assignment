@@ -1,16 +1,12 @@
 .nav{
     display: flex;
     flex-wrap: wrap;
-    border: 1px red solid;
+    
     gap: 1%;
     margin: auto;
     padding: 10px 0px 10px 5px;
     position: relative;
     background-color:  rgba(255, 255, 255, 0.63);
-}
-
-.nav>div{
-    border: 1px red solid;
 }
 .logo{
     width: 20%;
