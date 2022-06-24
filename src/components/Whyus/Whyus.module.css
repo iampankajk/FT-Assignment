@@ -1,0 +1,19 @@
+.main{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+.main>div{
+    width: 23%;
+    margin: auto;
+    text-align: center;
+}
+.box{
+    text-align: center;
+    background-color: aqua;
+    margin-top: 50px;
+    padding-top: 20px;
+}
